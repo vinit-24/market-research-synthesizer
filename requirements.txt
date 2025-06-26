@@ -9,6 +9,10 @@ python-dotenv>=1.0
 pandas>=2.2
 
 # For multi-format ingestion & chains
+langchain>=0.2
 langchain[pdf]>=0.2
+langchain-community>=0.0.11
+unstructured>=0.7
+faiss-cpu>=1.7
 unstructured>=0.7
 python-pptx>=0.7  # later slide export
